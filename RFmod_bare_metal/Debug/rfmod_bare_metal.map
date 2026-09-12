@@ -1,0 +1,925 @@
+
+Map of Debug\rfmod_bare_metal.sm8 from link file Debug\rfmod_bare_metal.lkf - Tue Jan 12 14:55:06 2027
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 000081f2 length   370 segment .const
+start 0000820c end 00009fae length  7586 segment .text
+start 00004000 end 00004000 length     0 segment .eeprom
+start 00000000 end 0000000c length    12 segment .bsct, initialized
+start 000081ff end 0000820b length    12 segment .bsct, from
+start 0000000c end 0000004f length    67 segment .ubsct
+start 00004f:0 end 00004f:4 length     4 segment .bit, initialized
+start 0000820b end 0000820c length     1 segment .bit, from
+start 00000050 end 00000050 length     0 segment .share
+start 00000100 end 00000100 length     0 segment .data
+start 00000100 end 00000100 length     0 segment .bss
+start 00000000 end 00000895 length  2197 segment .info.
+start 00000000 end 000039a3 length 14755 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 000081f2 end 000081ff length    13 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8:
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .bss *** removed ***
+start ******** end ******** length     0 section .ubsct *** removed ***
+start 00000000 end 00000033 length    51 section .info.
+
+Debug\swi2c.o:
+start 00000000 end 00000a3d length  2621 section .debug
+start 00000033 end 000000a1 length   110 section .info.
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 0000820c end 0000829b length   143 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 0000829b end 000082bc length    33 section .text
+start 000082bc end 00008311 length    85 section .text
+start 00008311 end 00008361 length    80 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start 00008361 end 000083a1 length    64 section .text
+start 000083a1 end 000083e3 length    66 section .text
+start ******** end ******** length     0 section .text *** removed ***
+
+Debug\stm8s_delay.o:
+start 00000a3d end 00000b89 length   332 section .debug
+start 000000a1 end 00000115 length   116 section .info.
+start 000083e3 end 00008402 length    31 section .text
+start 00008402 end 00008418 length    22 section .text
+start 00008080 end 00008084 length     4 section .const
+
+Debug\stm8_pt6311.o:
+start 00000000 end 00000002 length     2 section .bsct
+start 0000000c end 0000000d length     1 section .ubsct
+start 00000b89 end 000017ee length  3173 section .debug
+start 00000115 end 00000189 length   116 section .info.
+start 00008084 end 0000813c length   184 section .const
+start 00008418 end 0000874f length   823 section .text
+start 0000874f end 000087a5 length    86 section .text
+start 000087a5 end 000087d6 length    49 section .text
+start 000087d6 end 000087e1 length    11 section .text
+start 000087e1 end 000087ec length    11 section .text
+start 000087ec end 00008820 length    52 section .text
+start 00008820 end 000088e9 length   201 section .text
+start 000088e9 end 000088fb length    18 section .text
+start 000088fb end 0000890d length    18 section .text
+start 0000890d end 0000893c length    47 section .text
+start 0000893c end 00008972 length    54 section .text
+start 00008972 end 000089a2 length    48 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start 000089a2 end 000089c5 length    35 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start 000089c5 end 00008a40 length   123 section .text
+start 00008a40 end 00008a5e length    30 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+
+Debug\mbs74t1aef.o:
+start 000017ee end 000025dc length  3566 section .debug
+start 00000189 end 000001fc length   115 section .info.
+start 00008a5e end 00008a90 length    50 section .text
+start 00008a90 end 00008acc length    60 section .text
+start 00008acc end 00008af3 length    39 section .text
+start 00008af3 end 00008b50 length    93 section .text
+start 00008b50 end 00008bcb length   123 section .text
+start 00008bcb end 00008c52 length   135 section .text
+start 00008c52 end 00008ce0 length   142 section .text
+start 0000813c end 0000815d length    33 section .const
+start 00008ce0 end 00008e09 length   297 section .text
+start 00008e09 end 00008e17 length    14 section .text
+start 00008e17 end 00008e25 length    14 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 00008e25 end 00008e33 length    14 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 00008e33 end 00008e41 length    14 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 00008e41 end 00008eb3 length   114 section .text
+
+Debug\main.o:
+start 00000002 end 0000000c length    10 section .bsct
+start 0000000d end 00000045 length    56 section .ubsct
+start 000025dc end 0000384d length  4721 section .debug
+start 000001fc end 00000269 length   109 section .info.
+start 00004f:0 end 00004f:4 length     4 section .bit
+start 00008eb3 end 00008ec0 length    13 section .text
+start 00008ec0 end 00008f51 length   145 section .text
+start 00008f51 end 00008f76 length    37 section .text
+start 00008f76 end 00008f8d length    23 section .text
+start 00008f8d end 00008f92 length     5 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 00008f92 end 00008fc3 length    49 section .text
+start 00008fc3 end 00008fea length    39 section .text
+start 0000815d end 000081f2 length   149 section .const
+start 00008fea end 0000911e length   308 section .text
+start 0000911e end 0000913d length    31 section .text
+start 0000913d end 000091ab length   110 section .text
+start 000091ab end 000091eb length    64 section .text
+start 000091eb end 00009321 length   310 section .text
+start 00009321 end 00009339 length    24 section .text
+start 00009339 end 00009394 length    91 section .text
+start 00009394 end 00009399 length     5 section .text
+start 00009399 end 000093b7 length    30 section .text
+start 000093b7 end 000093e0 length    41 section .text
+start 000093e0 end 0000941d length    61 section .text
+start 0000941d end 000094a2 length   133 section .text
+start 000094a2 end 00009514 length   114 section .text
+start 00009514 end 00009578 length   100 section .text
+start 00009578 end 00009673 length   251 section .text
+start 00009673 end 000097c9 length   342 section .text
+start 000097c9 end 00009823 length    90 section .text
+start 00009823 end 0000991f length   252 section .text
+start 0000991f end 0000995a length    59 section .text
+start 0000995a end 00009995 length    59 section .text
+start 00009995 end 000099d0 length    59 section .text
+start 000099d0 end 00009a3d length   109 section .text
+start 00009a3d end 00009aac length   111 section .text
+start 00009aac end 00009ada length    46 section .text
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)fmul.o:
+start 00009ada end 00009baf length   213 section .text
+start 00000269 end 00000297 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ftol.o:
+start 00009baf end 00009c11 length    98 section .text
+start 00000297 end 000002c5 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)itolx.o:
+start 00009c11 end 00009c1f length    14 section .text
+start 000002c5 end 000002f4 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ladc.o:
+start 00009c1f end 00009c30 length    17 section .text
+start 000002f4 end 00000322 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ladd.o:
+start 00009c30 end 00009c48 length    24 section .text
+start 00000322 end 00000350 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)land.o:
+start 00009c48 end 00009c60 length    24 section .text
+start 00000350 end 0000037e length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o:
+start 00009c60 end 00009c80 length    32 section .text
+start 0000037e end 000003ac length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadc.o:
+start 00009c80 end 00009c90 length    16 section .text
+start 000003ac end 000003db length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadd.o:
+start 00009c90 end 00009ca7 length    23 section .text
+start 000003db end 0000040a length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgmul.o:
+start 00009ca7 end 00009caf length     8 section .text
+start 0000040a end 00000439 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgor.o:
+start 00009caf end 00009cc6 length    23 section .text
+start 00000439 end 00000467 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgsub.o:
+start 00009cc6 end 00009cdd length    23 section .text
+start 00000467 end 00000496 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)llsh.o:
+start 00009cdd end 00009cec length    15 section .text
+start 00000496 end 000004c4 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lmul.o:
+start 00009cec end 00009d77 length   139 section .text
+start 000004c4 end 000004f2 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lreg.o:
+start 00000045 end 00000049 length     4 section .ubsct
+start 000004f2 end 00000520 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lrzmp.o:
+start 00009d77 end 00009d8b length    20 section .text
+start 00000520 end 0000054f length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lsub.o:
+start 00009d8b end 00009da3 length    24 section .text
+start 0000054f end 0000057d length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o:
+start 00009da3 end 00009db5 length    18 section .text
+start 0000057d end 000005ab length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ludiv.o:
+start 00009db5 end 00009dc9 length    20 section .text
+start 000005ab end 000005da length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o:
+start 00009dc9 end 00009eb4 length   235 section .text
+start 000005da end 00000608 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgneg.o:
+start 00009eb4 end 00009ec7 length    19 section .text
+start 00000608 end 00000637 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lneg.o:
+start 00009ec7 end 00009edc length    21 section .text
+start 00000637 end 00000665 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lumod.o:
+start 00009edc end 00009ef6 length    26 section .text
+start 00000665 end 00000694 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o:
+start 00009ef6 end 00009f08 length    18 section .text
+start 00000694 end 000006c2 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)sdivx.o:
+start 00009f08 end 00009f33 length    43 section .text
+start 000006c2 end 000006f1 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)uitof.o:
+start 00009f33 end 00009f57 length    36 section .text
+start 000006f1 end 00000720 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)utolx.o:
+start 00009f57 end 00009f5e length     7 section .text
+start 00000720 end 0000074f length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)vmul.o:
+start 00009f5e end 00009fac length    78 section .text
+start 0000074f end 0000077d length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xreg.o:
+start 00000049 end 0000004c length     3 section .ubsct
+start 0000077d end 000007ab length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)yreg.o:
+start 0000004c end 0000004f length     3 section .ubsct
+start 000007ab end 000007d9 length    46 section .info.
+
+Debug\stm8_interrupt_vector.o:
+start 0000384d end 000039a3 length   342 section .debug
+start 000007d9 end 00000857 length   126 section .info.
+start 00009fac end 00009fae length     2 section .text
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Debug\main.o:
+L16_eeprom_unlock                       2   (2)
+L371_eeprom_write                      10   (8)
+L501_eeprom_lock                        2   (2)
+L742_eeprom_read                        8   (8)
+L763_question_writer                   24   (2)
+_bool_updaters                         53   (3)
+_btn_init                               2   (2)
+_button_accel_check                    16   (13)
+_button_accel_init                      2   (2)
+_button_simple_check                   11   (9)
+_button_simple_init                     2   (2)
+_channel_recalculate                   52   (6)
+_channel_screen                        62   (2)
+_channel_update_visuals                60   (2)
+_check_st_button                       27   (2)
+_clock_setup                            2   (2)
+_freq_update_visuals                   67   (9)
+_freq_visuals                          55   (9)
+_frequency_screen                      69   (2)
+_main                                  75   (2)
+_memory_handler                        69   (11)
+_memory_screen                         71   (2)
+_ps_ratio_screen                       55   (2)
+_pwc_screen                            55   (2)
+_sound_screen                          55   (2)
+_sound_system                          53   (3)
+_tim4_isr_setup                         2   (2)
+_tpen_screen                           55   (2)
+_update_screen                         73   (2)
+f_reset_handler                    >   91   (16)
+f_timer4_isr                       >    8   (6)
+
+Debug\mbs74t1aef.o:
+_RFModulator_Init                       5   (5)
+_RFModulator_RegisterC0                14   (8)
+_RFModulator_RegisterC1                14   (8)
+_RFModulator_RegisterFL                12   (6)
+_RFModulator_RegisterFM                12   (6)
+_RFModulator_SendDataRaw               37   (12)
+_RFModulator_SendRegister              45   (8)
+_RFModulator_SetFrequency              58   (13)
+_RFModulator_SetPeakWhiteClip          50   (5)
+_RFModulator_SetPictureSoundRatio      50   (5)
+_RFModulator_SetSoundSubcarrier        50   (5)
+_RFModulator_SetTestPattern            50   (5)
+_bitWrite                               6   (6)
+
+Debug\stm8_interrupt_vector.o:
+f_NonHandledInterrupt              >    6   (6)
+
+Debug\stm8_pt6311.o:
+L143_pt6311_stop                       12   (2)
+L175_pt6311_overlay                     3   (3)
+L353_pt6311_shift_out                  14   (4)
+L3_pt6311_font                          2   (2)
+L723_pt6311_start                      12   (2)
+L752_pt6311_remap                      13   (11)
+_pt6311_clear_display                  25   (3)
+_pt6311_init                           20   (4)
+_pt6311_set_brightness                 16   (2)
+_pt6311_set_display_state              16   (2)
+_pt6311_setup_io                        2   (2)
+_pt6311_write_char                     30   (8)
+_pt6311_write_digit                    22   (8)
+_pt6311_write_int                      46   (16)
+_pt6311_write_string                   35   (5)
+
+Debug\stm8s_delay.o:
+_delay_ms                              14   (4)
+_delay_us                              10   (4)
+
+Debug\swi2c.o:
+_swi2c_START                           14   (4)
+_swi2c_STOP                            15   (5)
+_swi2c_init                             2   (2)
+_swi2c_readbit                         15   (5)
+_swi2c_write_array                     25   (10)
+_swi2c_writebit                        14   (4)
+
+Stack size: 91
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > f_NonHandledInterrupt: (6)
+
+   2 > f_reset_handler: (16)
+   3      + _main: (2)
+   4      |    + _RFModulator_Init: (5)
+   5      |    + _btn_init: (2)
+   6      |    + _button_accel_init: (2)
+   7      |    + _button_simple_init: (2)
+   8      |    + _check_st_button: (2)
+   9      |    |    + _button_simple_check: (9)
+  10      |    |    + _pt6311_clear_display: (3)
+  11      |    |    |    + _pt6311_write_digit: (8)
+  12      |    |    |    |    + L143_pt6311_stop: (2)
+  13      |    |    |    |    |    + _delay_us: (4)
+          |    |    |    |    | 
+  14      |    |    |    |    + L175_pt6311_overlay: (3)
+  15      |    |    |    |    + L353_pt6311_shift_out: (4)
+  16      |    |    |    |    |    + _delay_us --> 13
+          |    |    |    |    | 
+  17      |    |    |    |    + L723_pt6311_start: (2)
+  18      |    |    |    |    |    + _delay_us --> 13
+          |    |    |    |    | 
+          |    |    |    | 
+          |    |    | 
+          |    | 
+  19      |    + _clock_setup: (2)
+  20      |    + _delay_ms: (4)
+  21      |    |    + _delay_us --> 13
+          |    | 
+  22      |    + _freq_visuals: (9)
+  23      |    |    + _pt6311_write_digit --> 11
+  24      |    |    + _pt6311_write_int: (16)
+  25      |    |    |    + _pt6311_write_char: (8)
+  26      |    |    |    |    + L3_pt6311_font: (2)
+  27      |    |    |    |    + L752_pt6311_remap: (11)
+  28      |    |    |    |    + _pt6311_write_digit --> 11
+          |    |    |    | 
+          |    |    | 
+  29      |    |    + _pt6311_write_string: (5)
+  30      |    |    |    + _pt6311_write_char --> 25
+          |    |    | 
+          |    | 
+  31      |    + _memory_handler: (11)
+  32      |    |    + L371_eeprom_write: (8)
+  33      |    |    |    + L16_eeprom_unlock: (2)
+  34      |    |    |    + L501_eeprom_lock: (2)
+          |    |    | 
+  35      |    |    + L742_eeprom_read: (8)
+  36      |    |    + _RFModulator_SetFrequency: (13)
+  37      |    |    |    + _RFModulator_SendRegister: (8)
+  38      |    |    |    |    + _RFModulator_RegisterC0: (8)
+  39      |    |    |    |    |    + _bitWrite: (6)
+          |    |    |    |    | 
+  40      |    |    |    |    + _RFModulator_RegisterC1: (8)
+  41      |    |    |    |    |    + _bitWrite --> 39
+          |    |    |    |    | 
+  42      |    |    |    |    + _RFModulator_RegisterFL: (6)
+  43      |    |    |    |    |    + _bitWrite --> 39
+          |    |    |    |    | 
+  44      |    |    |    |    + _RFModulator_RegisterFM: (6)
+  45      |    |    |    |    |    + _bitWrite --> 39
+          |    |    |    |    | 
+  46      |    |    |    |    + _RFModulator_SendDataRaw: (12)
+  47      |    |    |    |    |    + _swi2c_write_array: (10)
+  48      |    |    |    |    |    |    + _swi2c_START: (4)
+  49      |    |    |    |    |    |    |    + _delay_us --> 13
+          |    |    |    |    |    |    | 
+  50      |    |    |    |    |    |    + _swi2c_STOP: (5)
+  51      |    |    |    |    |    |    |    + _delay_us --> 13
+          |    |    |    |    |    |    | 
+  52      |    |    |    |    |    |    + _swi2c_readbit: (5)
+  53      |    |    |    |    |    |    |    + _delay_us --> 13
+          |    |    |    |    |    |    | 
+  54      |    |    |    |    |    |    + _swi2c_writebit: (4)
+  55      |    |    |    |    |    |    |    + _delay_us --> 13
+          |    |    |    |    |    |    | 
+          |    |    |    |    |    | 
+          |    |    |    |    | 
+          |    |    |    | 
+          |    |    | 
+  56      |    |    + _RFModulator_SetPeakWhiteClip: (5)
+  57      |    |    |    + _RFModulator_SendRegister --> 37
+          |    |    | 
+  58      |    |    + _RFModulator_SetPictureSoundRatio: (5)
+  59      |    |    |    + _RFModulator_SendRegister --> 37
+          |    |    | 
+  60      |    |    + _RFModulator_SetSoundSubcarrier: (5)
+  61      |    |    |    + _RFModulator_SendRegister --> 37
+          |    |    | 
+  62      |    |    + _RFModulator_SetTestPattern: (5)
+  63      |    |    |    + _RFModulator_SendRegister --> 37
+          |    |    | 
+          |    | 
+  64      |    + _pt6311_clear_display --> 10
+  65      |    + _pt6311_init: (4)
+  66      |    |    + L143_pt6311_stop --> 12
+  67      |    |    + L353_pt6311_shift_out --> 15
+  68      |    |    + L723_pt6311_start --> 17
+  69      |    |    + _delay_ms --> 20
+  70      |    |    + _pt6311_set_brightness: (2)
+  71      |    |    |    + L143_pt6311_stop --> 12
+  72      |    |    |    + L353_pt6311_shift_out --> 15
+  73      |    |    |    + L723_pt6311_start --> 17
+          |    |    | 
+  74      |    |    + _pt6311_set_display_state: (2)
+  75      |    |    |    + L143_pt6311_stop --> 12
+  76      |    |    |    + L353_pt6311_shift_out --> 15
+  77      |    |    |    + L723_pt6311_start --> 17
+          |    |    | 
+  78      |    |    + _pt6311_setup_io: (2)
+          |    | 
+  79      |    + _pt6311_set_display_state --> 74
+  80      |    + _pt6311_write_digit --> 11
+  81      |    + _pt6311_write_string --> 29
+  82      |    + _swi2c_init: (2)
+  83      |    + _tim4_isr_setup: (2)
+  84      |    + _update_screen: (2)
+  85      |    |    + _channel_screen: (2)
+  86      |    |    |    + _button_accel_check: (13)
+  87      |    |    |    + _channel_recalculate: (6)
+  88      |    |    |    |    + _pt6311_write_digit --> 11
+  89      |    |    |    |    + _pt6311_write_int --> 24
+          |    |    |    | 
+  90      |    |    |    + _channel_update_visuals: (2)
+  91      |    |    |    |    + _RFModulator_SetFrequency --> 36
+  92      |    |    |    |    + _pt6311_write_digit --> 11
+  93      |    |    |    |    + _pt6311_write_int --> 24
+          |    |    |    | 
+  94      |    |    |    + _pt6311_write_string --> 29
+          |    |    | 
+  95      |    |    + _frequency_screen: (2)
+  96      |    |    |    + _button_accel_check --> 86
+  97      |    |    |    + _freq_update_visuals: (9)
+  98      |    |    |    |    + _RFModulator_SetFrequency --> 36
+  99      |    |    |    |    + _freq_visuals --> 22
+          |    |    |    | 
+ 100      |    |    |    + _freq_visuals --> 22
+ 101      |    |    |    + _pt6311_write_string --> 29
+          |    |    | 
+ 102      |    |    + _memory_screen: (2)
+ 103      |    |    |    + L763_question_writer: (2)
+ 104      |    |    |    |    + _pt6311_write_digit --> 11
+          |    |    |    | 
+ 105      |    |    |    + _button_accel_check --> 86
+ 106      |    |    |    + _delay_ms --> 20
+ 107      |    |    |    + _memory_handler --> 31
+ 108      |    |    |    + _pt6311_write_digit --> 11
+ 109      |    |    |    + _pt6311_write_string --> 29
+          |    |    | 
+ 110      |    |    + _ps_ratio_screen: (2)
+ 111      |    |    |    + _bool_updaters: (3)
+ 112      |    |    |    |    + _RFModulator_SetPeakWhiteClip --> 56
+ 113      |    |    |    |    + _RFModulator_SetPictureSoundRatio --> 58
+ 114      |    |    |    |    + _RFModulator_SetTestPattern --> 62
+ 115      |    |    |    |    + _pt6311_write_digit --> 11
+ 116      |    |    |    |    + _pt6311_write_string --> 29
+          |    |    |    | 
+ 117      |    |    |    + _button_accel_check --> 86
+ 118      |    |    |    + _pt6311_write_string --> 29
+          |    |    | 
+ 119      |    |    + _pwc_screen: (2)
+ 120      |    |    |    + _bool_updaters --> 111
+ 121      |    |    |    + _button_accel_check --> 86
+ 122      |    |    |    + _pt6311_write_string --> 29
+          |    |    | 
+ 123      |    |    + _sound_screen: (2)
+ 124      |    |    |    + _button_accel_check --> 86
+ 125      |    |    |    + _pt6311_write_string --> 29
+ 126      |    |    |    + _sound_system: (3)
+ 127      |    |    |    |    + _RFModulator_SetSoundSubcarrier --> 60
+ 128      |    |    |    |    + _pt6311_write_string --> 29
+          |    |    |    | 
+          |    |    | 
+ 129      |    |    + _tpen_screen: (2)
+ 130      |    |    |    + _bool_updaters --> 111
+ 131      |    |    |    + _button_accel_check --> 86
+ 132      |    |    |    + _pt6311_write_string --> 29
+          |    |    | 
+          |    | 
+          | 
+       
+ 133 > f_timer4_isr: (6)
+
+ 134   L143_pt6311_stop --> 12
+
+ 135   L16_eeprom_unlock --> 33
+
+ 136   L175_pt6311_overlay --> 14
+
+ 137   L353_pt6311_shift_out --> 15
+
+ 138   L371_eeprom_write --> 32
+
+ 139   L3_pt6311_font --> 26
+
+ 140   L501_eeprom_lock --> 34
+
+ 141   L723_pt6311_start --> 17
+
+ 142   L742_eeprom_read --> 35
+
+ 143   L752_pt6311_remap --> 27
+
+ 144   L763_question_writer --> 103
+
+ 145   _RFModulator_Init --> 4
+
+ 146   _RFModulator_RegisterC0 --> 38
+
+ 147   _RFModulator_RegisterC1 --> 40
+
+ 148   _RFModulator_RegisterFL --> 42
+
+ 149   _RFModulator_RegisterFM --> 44
+
+ 150   _RFModulator_SendDataRaw --> 46
+
+ 151   _RFModulator_SendRegister --> 37
+
+ 152   _RFModulator_SetFrequency --> 36
+
+ 153   _RFModulator_SetPeakWhiteClip --> 56
+
+ 154   _RFModulator_SetPictureSoundRatio --> 58
+
+ 155   _RFModulator_SetSoundSubcarrier --> 60
+
+ 156   _RFModulator_SetTestPattern --> 62
+
+ 157   _bitWrite --> 39
+
+ 158   _bool_updaters --> 111
+
+ 159   _btn_init --> 5
+
+ 160   _button_accel_check --> 86
+
+ 161   _button_accel_init --> 6
+
+ 162   _button_simple_check --> 9
+
+ 163   _button_simple_init --> 7
+
+ 164   _channel_recalculate --> 87
+
+ 165   _channel_screen --> 85
+
+ 166   _channel_update_visuals --> 90
+
+ 167   _check_st_button --> 8
+
+ 168   _clock_setup --> 19
+
+ 169   _delay_ms --> 20
+
+ 170   _delay_us --> 13
+
+ 171   _freq_update_visuals --> 97
+
+ 172   _freq_visuals --> 22
+
+ 173   _frequency_screen --> 95
+
+ 174   _main --> 3
+
+ 175   _memory_handler --> 31
+
+ 176   _memory_screen --> 102
+
+ 177   _ps_ratio_screen --> 110
+
+ 178   _pt6311_clear_display --> 10
+
+ 179   _pt6311_init --> 65
+
+ 180   _pt6311_set_brightness --> 70
+
+ 181   _pt6311_set_display_state --> 74
+
+ 182   _pt6311_setup_io --> 78
+
+ 183   _pt6311_write_char --> 25
+
+ 184   _pt6311_write_digit --> 11
+
+ 185   _pt6311_write_int --> 24
+
+ 186   _pt6311_write_string --> 29
+
+ 187   _pwc_screen --> 119
+
+ 188   _sound_screen --> 123
+
+ 189   _sound_system --> 126
+
+ 190   _swi2c_START --> 48
+
+ 191   _swi2c_STOP --> 50
+
+ 192   _swi2c_init --> 82
+
+ 193   _swi2c_readbit --> 52
+
+ 194   _swi2c_write_array --> 47
+
+ 195   _swi2c_writebit --> 54
+
+ 196   _tim4_isr_setup --> 83
+
+ 197   _tpen_screen --> 129
+
+ 198   _update_screen --> 84
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_RFModulator_GetStatus              ********   *** removed from Debug\mbs74t1aef.o ***
+_RFModulator_Init                   00008a90   defined in Debug\mbs74t1aef.o section .text
+                                               used in Debug\main.o
+_RFModulator_RegisterC0             00008b50   defined in Debug\mbs74t1aef.o section .text
+_RFModulator_RegisterC1             00008af3   defined in Debug\mbs74t1aef.o section .text
+_RFModulator_RegisterFL             00008c52   defined in Debug\mbs74t1aef.o section .text
+_RFModulator_RegisterFM             00008bcb   defined in Debug\mbs74t1aef.o section .text
+_RFModulator_SendDataRaw            00008acc   defined in Debug\mbs74t1aef.o section .text
+_RFModulator_SendRegister           00008e41   defined in Debug\mbs74t1aef.o section .text
+_RFModulator_SetAttenuation         ********   *** removed from Debug\mbs74t1aef.o ***
+_RFModulator_SetFrequency           00008ce0   defined in Debug\mbs74t1aef.o section .text
+                                               used in Debug\main.o
+_RFModulator_SetLogicOutputPort     ********   *** removed from Debug\mbs74t1aef.o ***
+_RFModulator_SetOscillator          ********   *** removed from Debug\mbs74t1aef.o ***
+_RFModulator_SetPeakWhiteClip       00008e25   defined in Debug\mbs74t1aef.o section .text
+                                               used in Debug\main.o
+_RFModulator_SetPictureSoundRatio   00008e09   defined in Debug\mbs74t1aef.o section .text
+                                               used in Debug\main.o
+_RFModulator_SetSoundOscillator     ********   *** removed from Debug\mbs74t1aef.o ***
+_RFModulator_SetSoundSubcarrier     00008e17   defined in Debug\mbs74t1aef.o section .text
+                                               used in Debug\main.o
+_RFModulator_SetTestMode            ********   *** removed from Debug\mbs74t1aef.o ***
+_RFModulator_SetTestPattern         00008e33   defined in Debug\mbs74t1aef.o section .text
+                                               used in Debug\main.o
+__endmem                            000001ff   defined in command file
+                                               *** not used ***
+__endzp                             0000004f   defined in command file section .ubsct
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__idesc__                           000081f2   defined in linker section .init
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__memory                            00000100   defined in command file section .bss
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__stack                             000003ff   defined in command file
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__startmem                          00000100   defined in command file section .bss
+                                               *** not used ***
+__stext                             ********   *** removed from C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8 ***
+__vectab                            00008000   defined in Debug\stm8_interrupt_vector.o section .const
+_bitWrite                           00008a5e   defined in Debug\mbs74t1aef.o section .text
+_bool_updaters                      00009823   defined in Debug\main.o section .text
+_btn_init                           00008f51   defined in Debug\main.o section .text
+_button_accel_check                 000091eb   defined in Debug\main.o section .text
+_button_accel_init                  000091ab   defined in Debug\main.o section .text
+_button_simple_check                00009339   defined in Debug\main.o section .text
+_button_simple_init                 00009321   defined in Debug\main.o section .text
+_change_tracker                     00004f:3   defined in Debug\main.o section .bit, initialized
+_channel                            0000000d   defined in Debug\main.o section .ubsct
+_channel_recalculate                00009673   defined in Debug\main.o section .text
+_channel_screen                     000097c9   defined in Debug\main.o section .text
+_channel_update_visuals             00009578   defined in Debug\main.o section .text
+_check_st_button                    000093b7   defined in Debug\main.o section .text
+_clock_setup                        00009394   defined in Debug\main.o section .text
+_current_screen                     00000044   defined in Debug\main.o section .ubsct
+_delay_ms                           00008402   defined in Debug\stm8s_delay.o section .text
+                                               used in Debug\stm8_pt6311.o
+                                                       Debug\main.o
+_delay_us                           000083e3   defined in Debug\stm8s_delay.o section .text
+                                               used in Debug\swi2c.o
+                                                       Debug\stm8_pt6311.o
+_down_btn                           00000015   defined in Debug\main.o section .ubsct
+_exit                               ********   *** removed from C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8 ***
+_freq_update_visuals                000094a2   defined in Debug\main.o section .text
+_freq_visuals                       0000941d   defined in Debug\main.o section .text
+_frequency_screen                   00009514   defined in Debug\main.o section .text
+_i                                  0000000e   defined in Debug\main.o section .ubsct
+_last_channel                       0000000a   defined in Debug\main.o section .bsct, initialized
+_main                               00008ec0   defined in Debug\main.o section .text
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+_memory_handler                     00008fea   defined in Debug\main.o section .text
+_memory_screen                      0000913d   defined in Debug\main.o section .text
+_mod                                00000037   defined in Debug\main.o section .ubsct
+_mod_frequency                      00000006   defined in Debug\main.o section .bsct, initialized
+_ps_ratio                           00004f:0   defined in Debug\main.o section .bit, initialized
+_ps_ratio_screen                    00009995   defined in Debug\main.o section .text
+_pt6311_clear_display               00008a40   defined in Debug\stm8_pt6311.o section .text
+                                               used in Debug\main.o
+_pt6311_clock_format                ********   *** removed from Debug\stm8_pt6311.o ***
+_pt6311_init                        00008820   defined in Debug\stm8_pt6311.o section .text
+                                               used in Debug\main.o
+_pt6311_num_digits                  0000000c   defined in Debug\stm8_pt6311.o section .ubsct
+_pt6311_set_brightness              000088e9   defined in Debug\stm8_pt6311.o section .text
+_pt6311_set_display_state           000088fb   defined in Debug\stm8_pt6311.o section .text
+                                               used in Debug\main.o
+_pt6311_setup_io                    000087a5   defined in Debug\stm8_pt6311.o section .text
+_pt6311_test_digit_positions        ********   *** removed from Debug\stm8_pt6311.o ***
+_pt6311_test_segments               ********   *** removed from Debug\stm8_pt6311.o ***
+_pt6311_write_char                  00008972   defined in Debug\stm8_pt6311.o section .text
+_pt6311_write_char_dot              ********   *** removed from Debug\stm8_pt6311.o ***
+_pt6311_write_digit                 0000893c   defined in Debug\stm8_pt6311.o section .text
+                                               used in Debug\main.o
+_pt6311_write_int                   000089c5   defined in Debug\stm8_pt6311.o section .text
+                                               used in Debug\main.o
+_pt6311_write_string                000089a2   defined in Debug\stm8_pt6311.o section .text
+                                               used in Debug\main.o
+_pwc                                00004f:2   defined in Debug\main.o section .bit, initialized
+_pwc_screen                         0000995a   defined in Debug\main.o section .text
+_set_brightness                     00000000   defined in Debug\stm8_pt6311.o section .bsct, initialized
+_set_state                          00000001   defined in Debug\stm8_pt6311.o section .bsct, initialized
+_sound                              0000000b   defined in Debug\main.o section .bsct, initialized
+_sound_screen                       000099d0   defined in Debug\main.o section .text
+_sound_system                       00009a3d   defined in Debug\main.o section .text
+_status_btn                         0000000f   defined in Debug\main.o section .ubsct
+_swi2c_RESTART                      ********   *** removed from Debug\swi2c.o ***
+_swi2c_START                        00008361   defined in Debug\swi2c.o section .text
+_swi2c_STOP                         000083a1   defined in Debug\swi2c.o section .text
+_swi2c_init                         0000829b   defined in Debug\swi2c.o section .text
+                                               used in Debug\main.o
+_swi2c_read_array                   ********   *** removed from Debug\swi2c.o ***
+_swi2c_read_buf                     ********   *** removed from Debug\swi2c.o ***
+_swi2c_read_eemem                   ********   *** removed from Debug\swi2c.o ***
+_swi2c_readbit                      000082bc   defined in Debug\swi2c.o section .text
+_swi2c_recover                      ********   *** removed from Debug\swi2c.o ***
+_swi2c_test_slave                   ********   *** removed from Debug\swi2c.o ***
+_swi2c_write_array                  0000820c   defined in Debug\swi2c.o section .text
+                                               used in Debug\mbs74t1aef.o
+_swi2c_write_buf                    ********   *** removed from Debug\swi2c.o ***
+_swi2c_write_eemem                  ********   *** removed from Debug\swi2c.o ***
+_swi2c_writebit                     00008311   defined in Debug\swi2c.o section .text
+_tim4_isr_setup                     00009399   defined in Debug\main.o section .text
+_tpen                               00004f:1   defined in Debug\main.o section .bit, initialized
+_tpen_screen                        0000991f   defined in Debug\main.o section .text
+_up_btn                             00000026   defined in Debug\main.o section .ubsct
+_update_screen                      000093e0   defined in Debug\main.o section .text
+c_divsl                             00009dc9   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o section .text
+                                               *** not used ***
+c_divul                             00009de0   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o section .text
+                                               used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ludiv.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lumod.o
+c_fmul                              00009ada   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)fmul.o section .text
+                                               used in Debug\stm8s_delay.o
+c_ftoi                              00009baf   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ftol.o section .text
+                                               used in Debug\stm8s_delay.o
+c_ftol                              00009bb5   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ftol.o section .text
+c_itolx                             00009c11   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)itolx.o section .text
+                                               used in Debug\mbs74t1aef.o
+c_ladc                              00009c1f   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ladc.o section .text
+                                               used in Debug\main.o
+c_ladd                              00009c30   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ladd.o section .text
+                                               used in Debug\main.o
+c_land                              00009c48   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)land.o section .text
+                                               used in Debug\stm8_pt6311.o
+c_lcmp                              00009c60   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o section .text
+                                               used in Debug\mbs74t1aef.o
+                                                       Debug\main.o
+c_lgadc                             00009c80   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadc.o section .text
+                                               used in Debug\main.o
+c_lgadd                             00009c90   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadd.o section .text
+                                               used in Debug\main.o
+c_lgmul                             00009ca7   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgmul.o section .text
+                                               used in Debug\mbs74t1aef.o
+c_lgneg                             00009eb4   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgneg.o section .text
+                                               used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+c_lgor                              00009caf   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgor.o section .text
+                                               used in Debug\stm8_pt6311.o
+c_lgsub                             00009cc6   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgsub.o section .text
+                                               used in Debug\main.o
+c_llsh                              00009cdd   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)llsh.o section .text
+                                               used in Debug\stm8_pt6311.o
+c_lmul                              00009cec   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lmul.o section .text
+                                               used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgmul.o
+c_lmulc                             00009cf4   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lmul.o section .text
+                                               *** not used ***
+c_lneg                              00009ec7   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lneg.o section .text
+                                               used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+c_lreg                              00000045   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lreg.o section .ubsct
+                                               used in Debug\stm8_pt6311.o
+                                                       Debug\mbs74t1aef.o
+                                                       Debug\main.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)fmul.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ftol.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)itolx.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ladc.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ladd.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)land.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadd.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgor.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgsub.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)llsh.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lmul.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lrzmp.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lsub.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lneg.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lumod.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)uitof.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)utolx.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)vmul.o
+c_lrzmp                             00009d77   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lrzmp.o section .text
+                                               used in Debug\stm8_pt6311.o
+c_lsub                              00009d8b   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lsub.o section .text
+                                               used in Debug\main.o
+c_ltor                              00009da3   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o section .text
+                                               used in Debug\stm8_pt6311.o
+                                                       Debug\mbs74t1aef.o
+                                                       Debug\main.o
+c_ludv                              00009db5   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ludiv.o section .text
+                                               used in Debug\mbs74t1aef.o
+                                                       Debug\main.o
+c_lumd                              00009edc   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lumod.o section .text
+                                               used in Debug\main.o
+c_okmul                             00009ae8   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)fmul.o section .text
+                                               *** not used ***
+c_rtol                              00009ef6   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o section .text
+                                               used in Debug\stm8_pt6311.o
+                                                       Debug\mbs74t1aef.o
+                                                       Debug\main.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgmul.o
+c_sdivx                             00009f0e   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)sdivx.o section .text
+                                               used in Debug\stm8_pt6311.o
+c_smodx                             00009f08   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)sdivx.o section .text
+                                               used in Debug\stm8_pt6311.o
+c_uitof                             00009f33   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)uitof.o section .text
+                                               used in Debug\stm8s_delay.o
+c_uitolx                            00009f57   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)utolx.o section .text
+                                               used in Debug\main.o
+c_vmul                              00009f5e   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)vmul.o section .text
+                                               used in Debug\main.o
+c_x                                 00000049   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xreg.o section .ubsct
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+                                                       Debug\main.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)fmul.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lmul.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)sdivx.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)vmul.o
+c_y                                 0000004c   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)yreg.o section .ubsct
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+                                                       Debug\stm8_pt6311.o
+                                                       Debug\main.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)vmul.o
+f_NonHandledInterrupt               00009fac   defined in Debug\stm8_interrupt_vector.o section .text
+f_reset_handler                     00009aac   defined in Debug\main.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_timer4_isr                        00008eb3   defined in Debug\main.o section .text
+                                               used in Debug\stm8_interrupt_vector.o

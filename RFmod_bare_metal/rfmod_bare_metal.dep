@@ -1,0 +1,23 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.Source Files.src\swi2c.c.Config.0]
+ExternDep= src\swi2c.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\modsl.h"  inc\swi2c.h inc\stm8s_delay.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdint.h"  inc\stm8s.h "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdlib.h"  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"
+
+[Root.Source Files.src\stm8s_delay.c.Config.0]
+ExternDep= src\stm8s_delay.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\modsl.h"  inc\stm8s_delay.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdint.h"  inc\stm8s.h "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdlib.h"  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"
+
+[Root.Source Files.src\stm8_pt6311.c.Config.0]
+ExternDep= src\stm8_pt6311.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\modsl.h"  inc\stm8_pt6311.h inc\stm8s_delay.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdint.h"  inc\stm8s.h "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdlib.h"  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"
+
+[Root.Source Files.src\mbs74t1aef.c.Config.0]
+ExternDep= src\mbs74t1aef.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\modsl.h"  inc\MBS74T1AEF.h inc\swi2c.h inc\stm8s_delay.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdint.h"  inc\stm8s.h "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdlib.h"  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"
+
+[Root.Source Files.main.c.Config.0]
+ExternDep= main.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\modsl.h"  inc\stm8_pt6311.h inc\stm8s_delay.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdint.h"  inc\stm8s.h "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdlib.h"  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"  inc\mbs74t1aef.h inc\swi2c.h
+
+[Root.Source Files.stm8_interrupt_vector.c.Config.0]
+ExternDep= stm8_interrupt_vector.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\modsl.h"
