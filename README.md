@@ -7,6 +7,16 @@ My first experiments with bare metal programming on STM8. With SPL from ST I wou
  as PIN2 for example)
 - RF modulator RF out to RF amp input, RF amp output to proper antenna, like uhf folded dipole to give maximum range. Or you can just connect RF modulator output directly to TV and set desired channel or frequency
 ## **Images**
+
+Device running on channel 21, frequency 471.25 MHz
+![display](images/display.jpg)
+
+RF amplifier
+![amplifier](images/amp.png)
+
+Basic RF modulator circuit. Either use existing modulator or make it based off the schematic.
+![modulator](images/modulator.png)
+
 ## **Libraries and header files used**
 - My [PT6311/PT6315](https://github.com/bababooex/STM8_PT6311_LIBRARY) library to control the VFD display
 - MBS74T1AEF (MC44BS374T1) [RF modulator](https://github.com/tom2238/arduino-mc44bs374t1) library from Arduino, rewritten for STM8 compatibility with AIs help
