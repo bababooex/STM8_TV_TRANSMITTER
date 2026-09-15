@@ -347,7 +347,7 @@ void pt6311_test_digit_positions(uint8_t num_digits, uint16_t delay_per_digit_ms
     }
 }
 
-//test each digit
+//test each segment
 void pt6311_test_segments(uint8_t digit_pos, uint16_t delay_per_segment_ms)
 {
     uint8_t bit;
