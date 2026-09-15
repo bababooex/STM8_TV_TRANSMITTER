@@ -11,7 +11,7 @@ My first experiments with bare metal programming on STM8. With SPL from ST I wou
 Device running on channel 21, frequency 471.25 MHz
 ![display](images/display.jpg)
 
-RF amplifier
+RF amplifier - I highly recommend for UHF, because you will get most out of RF modulator. Also, on lower frequencies, there will be harmonics from dividing.
 ![amplifier](images/amp.png)
 
 Basic RF modulator circuit. Either use existing modulator or make it based off the schematic.
